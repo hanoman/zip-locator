@@ -1,0 +1,118 @@
+/*
+Converge ID: 02_CLX_34996_HVRHoliday
+Author: EL
+*/
+
+/*-------------------------------
+normalize.css v2.0.1
+-------------------------------*/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}
+pre{white-space:pre-wrap;word-wrap:break-word}
+q{quotes:\201C \201D \2018 \2019}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+body,figure{margin:0}
+legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+
+/*-------------------------------
+Common
+-------------------------------*/
+#preloader { position: absolute; top: 50%; left: 50%; margin-top: -32px; margin-left: -32px; }
+#preloader { width: 920px; height: 463px; background: #FFF; overflow: hidden; position: absolute; z-index: 20; }
+#preloader img { position: absolute; top: 50%; left: 50%; margin-top: -32px; margin-left: -32px; }
+.btn { background: url(../images/btn-recipe.png) no-repeat 0 0; height: 27px; width: 105px; display: block; }
+.img-replace, .btn, .closer, .plus { border: 0; font: 0/0 a; text-shadow: none; color: transparent; } /*Add this class for image replacement*/
+a:active, a:focus, input { outline: 0; outline-style: none; outline-width: 0; }
+
+#hiddenValley { background: url(../images/body-bg.jpg) repeat 0 0; }
+
+/*#hiddenValley { background: url(../images/tracing.jpg) repeat 0 0; }*/
+
+/*-------------------------------
+POV
+-------------------------------*/
+.pov { height: 803px; position: relative; }
+.zip-wrapper { height: 208px; background: url(../images/green-ribbon.png) repeat-x 0 0; padding-left: 10px; }
+    .zip-prod { /*background: #FFF; opacity: 0.5;*/ width: 400px; float: left; width: 332px; margin: 24px 16px 0 0; }
+        .zip-prod.powder { margin-right: 0; width: 245px; }
+        .zip-prod.powder img { margin-top: 8px; }
+        .zip-prod.light img { margin-top: 1px; margin-left: 3px; }
+        .zip-prod > img { float: left; }
+        .zip-mod { float: left; /*width: 100px;*/ padding-top: 34px; padding-left: 11px; }
+            .zip-mod h3 { width: 159px; height: 65px; }
+
+.pov-ribbon { background: url(../images/prod-ribbon.png) no-repeat 0 0; width: 100%; height: 270px; position: absolute; top: 533px; }
+
+.regular .zip-mod h3 { background: url(../images/heading-ranch-original.png) no-repeat 0 0; }
+.light .zip-mod h3 { background: url(../images/heading-ranch-light.png) no-repeat 0 0; }
+.powder .zip-mod h3 { background: url(../images/heading-ranch-powder.png) no-repeat 0 0; }
+.zipInput { position: relative; top: 4px; left: 2px; }
+    .zipInput input { display: inline-block; color: #858585; font-size: 15px; padding: 4px 0; text-align: center; width: 100px; }
+    a.findClubBTN { background: url(../images/btn-sprite-go.png) no-repeat scroll 0 0 transparent; display: block; height: 27px; position: relative; left: 117px; top: -22px; width: 48px; }
+    a.findClubBTN:hover, a.findClubBTN:active { background-position: 0 -80px; }
+
+/*-------------------------------
+Recipes
+-------------------------------*/
+.recipe-mod h2 { background: url(../images/heading-make-your-holiday-menu.png) no-repeat 0 0; width: 960px; height: 97px; margin-bottom: 15px;}
+.recipes-wrapper { padding-left: 34px; background: url(../images/mistletoe.png) repeat-x 0 29px; overflow: hidden; height: 347px; }
+    .recipe { float: left; width: 270px; margin-right: 38px;/* height: 348px;*/ position: relative; }
+        /*.recipe h3 { color: #FFF; font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; font-size: 15px; line-height: 17px; text-align: center; padding: 0 10px; text-shadow: 1px 1px 1px #041F12; filter: dropshadow(color=#041F12, offx=1, offy=1); height: 124px; margin-bottom: 8px; }*/
+
+        .recipe.cheesy-cheddar h3 { background: url(../images/heading-recipe.png) no-repeat 18px 4px; width: 279px; height: 82px; }
+        .recipe.holiday-turkey h3 { background: url(../images/heading-recipe.png) no-repeat -291px 4px; width: 279px; height: 82px; }
+        .recipe.mashed-potatoes h3 { background: url(../images/heading-recipe.png) no-repeat -596px 4px; width: 279px; height: 82px; }
+
+
+
+        .recipe a.btn { position: relative; left: 84px; top: 20px; }
+
+.bottom-ribbon { width: 100%; height: 31px; background: url(../images/bottom-ribbon.png) repeat-x left bottom; }
+
+/*-------------------------------
+Tooltip
+-------------------------------*/
+.plus       { background: url(../images/tooltip-sprite-i.png) no-repeat 0 0; width: 45px; height: 45px; cursor: pointer; display: block; }
+.plus:hover { background-position: 0 -80px; }
+.closer     { background: url(../images/tooltip-close.png) no-repeat 0 0; width: 41px; height: 41px; display: block; cursor: pointer; }
+.tooltip { z-index: 100; }
+.tips, .closer { display: none; }
+
+.plus.powder    { position: absolute; left: 442px; top: 32px; }
+.tooltip.powder { position: absolute; left: 264px; top: -126px; }
+    .tooltip.powder .closer { position: relative; left: 376px; top: -174px; }
+.plus.original      { position: absolute; left: 543px; top: -14px; }
+.tooltip.original   { position: absolute; left: 364px; top: -172px; }
+    .tooltip.original .closer { position: relative; left: 376px; top: -174px; }
+.plus.light     { position: absolute; left: 746px; top: -1px; }
+.tooltip.light  { position: absolute; left: 517px; top: -158px; }
+    .tooltip.light .closer { position: relative; left: 376px; top: -174px; }
+
+.sdm { background: url(../images/SDM-banner.jpg) no-repeat 0 0; display: block; width: 960px; height: 54px; border-top: 1px solid #CCC; }
